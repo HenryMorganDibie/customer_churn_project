@@ -23,7 +23,6 @@ The solution is divided into:
 The repository is organized for clarity and collaboration.
 
 <pre lang="markdown">
-<pre>
 customer_churn_project/
 ├── data/                         # Contains all raw data files (.xlsx)
 ├── models/                       # Stores trained model assets (.joblib files)
