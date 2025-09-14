@@ -23,17 +23,21 @@ The solution is divided into:
 The repository is organized for clarity and collaboration.
 
 <pre lang="markdown">
+<pre>
 customer_churn_project/
 ├── data/                         # Contains all raw data files (.xlsx)
 ├── models/                       # Stores trained model assets (.joblib files)
 │   ├── lr_model.joblib
 │   ├── scaler.joblib
 │   └── train_columns.joblib
+├── output/                       # Stores final output files and dashboard
+│   ├── customer retention & churn risk dashboard.pdf
+│   └── top_churn_risks.csv
 ├── notebooks/                    # Holds the Jupyter Notebook detailing the analysis
 │   └── Customer Churn Prediction & Retention Strategy.ipynb
 ├── customer_churn_analysis.py    # Main script for training the model
 ├── predict.py                    # Script for making new predictions
-└── requirements.txt              # Lists project dependencies
+└── requirements.txt              # Lists project dependencies             # Lists project dependencies
 </pre>
 
 # How to Run the Project
